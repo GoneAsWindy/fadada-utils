@@ -11,6 +11,21 @@ public class FadadaUtilTest {
 
     @Test
     public void uploadTemplate() {
+        Stack<String> stack = new Stack<String>();
+        stack.push("A");
+        stack.push("B");
+        stack.push("C");
+        stack.push("D");
+        stack.push("E");
+        try {
+            System.out.println(stack.pop());
+            System.out.println(stack.pop());
+            System.out.println(stack.pop());
+            System.out.println(stack.pop());
+            System.out.println(stack.pop());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 }

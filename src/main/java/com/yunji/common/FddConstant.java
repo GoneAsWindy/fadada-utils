@@ -23,4 +23,6 @@ public interface FddConstant {
     String URL = "https://testapi.fadada.com:8443/api/uploadtemplate.api";
 
     String SUCCESS = "1";
+
+    String GENERATE_SUCCESS =  "1000";
 }
